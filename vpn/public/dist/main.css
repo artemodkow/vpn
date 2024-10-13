@@ -1547,7 +1547,7 @@ section.tarifs {
 
 .footer__top {
     padding: 50px 0;
-    min-height: 338px;
+    min-height: auto;
     background: var(--Black, #2c2c35);
 }
 
@@ -1597,8 +1597,8 @@ section.tarifs {
     font-weight: 400
 }
 
-.footer{
-    margin-top: 70px
+.footer {
+    margin-top: 10%
 }
 
 .footer__nav-column-list ul li {
@@ -1720,7 +1720,7 @@ section.promo-setup {
 }
 
 section.promo-setup-macos {
-    background-image: url('/img2/promo-setup-macos.webp');
+    background-image: url('/dist/img/promo-setup-macos.webp');
     background-repeat: no-repeat;
     background-position: 100%
 }

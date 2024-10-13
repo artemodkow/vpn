@@ -71,7 +71,7 @@
       <div class="center-container">
         <div class="footer__row">
           <div class="footer__copyright">© 2024. Все права защищены</div>
-          <div class="footer__pay-methods"><img src="/dist/img/footer/banks.webp"></div>
+          <div class="footer__pay-methods"><img src="/dist/img/banks.webp"></div>
           <div class="footer__ssl-cert">
             <span><svg class="icon lock">
                 <use xlink:href="/dist/img/sprite.svg#lock"></use>

@@ -14,9 +14,6 @@ main.user-area {
 
 .user-area__left-col {
     min-width: 356px;
-    position: absolute;
-    z-index: 100;
-    margin-bottom: 10px;
 }
 
 .user-area__right-col {

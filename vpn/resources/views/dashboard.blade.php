@@ -1,7 +1,9 @@
-@include('vpn.header')
+@include('vpn.head')
 <main class="user-area" id="app">
+    
     @include('vpn.sidebar')
-    <div class="user-area__right-col">
+    @include('vpn.header')
+
         @yield('content')
     </div>
 </main>

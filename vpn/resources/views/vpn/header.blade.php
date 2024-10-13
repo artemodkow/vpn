@@ -1,28 +1,35 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="robots" content="noindex">
-    <title>Личный кабинет</title>
-    <meta property="og:title" content="Личный кабинет">
-    <meta property="og:description" content="">
-    <meta property="og:url" content="{{ url('/') }}">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="{{ asset('img2/preview.png') }}">
-    <meta property="og:locale" content="ru_RU">
-    <link rel="stylesheet" href="{{ asset('/dist/main.css') }}">
-    <link rel="stylesheet" href="{{ asset('/dist/lk.css') }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/favicons/favicon16.png') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/favicons/favicon32.png') }}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('img/favicons/favicon96.png') }}">
-    <link rel="icon" type="image/png" sizes="120x120" href="{{ asset('img/favicons/favicon120.png') }}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('img/favicons/favicon192.png') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('img/favicons/apple-touch-icon-180.png') }}">
-</head>
-<body>
+<div class="user-area__right-col">
+        <div class="user-area__header-row">
+        <a class="user-area__burger-menu-opener" href="#">
+            <svg class="icon menu">
+                <use xlink:href="/dist/img/sprite.svg#menu"></use>
+            </svg>
+        </a>
+        <span class="user-area__header-section-title"> Активные конфигурации</span>
+        <span class="user-area__profile"><!---->
+            <svg class="icon user">
+                <use xlink:href="/dist/img/sprite.svg#user"></use>
+            </svg>
+            <a href="#"> id3378485
+                <svg class="icon next">
+                    <use xlink:href="/dist/img/sprite.svg#next">
+                    </use>
+                </svg>
+            </a>
+            <ul class="header__navigation-submenu user-area__user-menu">
+                <li>
+                    <a href="/settings">
+                        <svg class="icon setting">
+                            <use xlink:href="/dist/img/sprite.svg#setting"></use>
+                        </svg> Настройки аккаунта</a>
+                    </li><li>
+                            <a href="/logout">
+                                <svg class="icon logout">
+                                    <use xlink:href="/dist/img/sprite.svg#logout">
+                                    </use></svg> Выйти</a></li></ul><a href="#">
+                                        <svg class="icon bell">
+                                            <use xlink="" href="/dist/img/sprite.svg#bell">
+                                            </use>
+                                        </svg></a><div class="header__navigation-submenu user-area__notifications"></div>
+                                    </span>
+        </div>
