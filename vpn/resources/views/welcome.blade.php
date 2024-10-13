@@ -939,143 +939,6 @@
       </div>
     </section>
 
-    <section class="reviews-telegram">
-      <div class="center-container">
-        <div class="reviews-telegram__title">
-          <h3><svg class="icon telegram">
-        <use xlink:href="/dist/img/sprite.svg#telegram"></use>
-      </svg> Отзывы пользователей в Telegram</h3></div>
-      </div>
-      <div class="reviews-telegram__list-wrap">
-        <img src="/dist/img/reviews/tg-reviews.webp">
-      </div>
-    </section>
-
-    <section class="feedback">
-      <div class="center-container">
-        <div class="feedback__card">
-          <div class="feedback__card-left-col"><img src="/dist/img/feedback/feedback_left.webp"></div>
-          <div class="feedback__card-right-col">
-            <div class="feedback__card-title">Присылайте отзывы и предложения.
-              <br>Это поможет нам стать еще лучше!</div>
-            <div class="feedback__card-action">
-              <a target="_blank" href="https://t.me/'Название vpn'_support" class="button yellow-button">
-                <svg class="icon telegram">
-                  <use xlink:href="/dist/img/sprite.svg#telegram"></use>
-                </svg> Оставить отзыв </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="tarifs">
-      <div class="center-container">
-        <div class="tarifs__title">
-          <h3>Получите еще больше возможностей</h3>
-        </div>
-        <div class="tarifs__list">
-          <div class="tarifs__list-item">
-            <div class="tarifs__list-item-image"><img src="/dist/img/tarifs/free.webp"></div>
-            <div class="tarifs__list-item-title">Бесплатный</div>
-            <div class="tarifs__list-item-desc">Этого хватит чтобы использовать Instagram на постоянной основе. Рекомендуем выключать Proxy сервер после использования, чтобы экономить трафик</div>
-            <div class="tarifs__list-item-current">Это ваш текущий тариф</div>
-            <div class="tarifs__list-item-params">
-              <ul>
-                <li>
-                  <svg class="icon check">
-                    <use xlink:href="/dist/img/sprite.svg#check"></use>
-                  </svg> Ограниченный трафик (10 Гб / в месяц)</li>
-                <li>
-                  <svg class="icon check">
-                    <use xlink:href="/dist/img/sprite.svg#check"></use>
-                  </svg> Использование на одном устройстве</li>
-                <li>
-                  <svg class="icon check">
-                    <use xlink:href="/dist/img/sprite.svg#check"></use>
-                  </svg> Чат технической поддержки в рабочее время</li>
-                <li>
-                  <svg class="icon check">
-                    <use xlink:href="/dist/img/sprite.svg#check"></use>
-                  </svg> Подключение к 6 странам</li>
-                <li>
-                  <svg class="icon check">
-                    <use xlink:href="/dist/img/sprite.svg#check"></use>
-                  </svg> Протоколы OpenVPN (UDP/TCP), WireGuard</li>
-              </ul>
-            </div>
-            <div class="tarifs__list-item-actions">
-              <a class="button black-button go-to-section" href="/lk/subscription#order" onclick="ym(92743388,'reachGoal','step_tg');" @click="goToSection($event)">
-                <svg class="icon logo">
-                  <use xlink:href="/dist/img/sprite.svg#logo"></use>
-                </svg> Сменить тариф</a>
-            </div>
-          </div>
-          <div class="tarifs__list-item tarifs__list-item--premium">
-            <span class="tag">RECCOMMENDED</span>
-
-            <div class="tarifs__list-item-image"><img src="/dist/img/tarifs/premium.webp"></div>
-            <div class="tarifs__list-item-title">Премиум</div>
-            <div class="tarifs__list-item-desc">Для тех, кто не хочет постоянно отключать Proxy сервер . Подойдет для работы на любом устройстве. Получите Больше возможностей всего лишь за 199.00₽ в месяц!</div>
-            <div class="tarifs__list-item-params">
-              <ul>
-                <li>
-                  <svg class="icon check">
-                    <use xlink:href="/dist/img/sprite.svg#check"></use>
-                  </svg> Без ограничений в трафике</li>
-                <li>
-                  <svg class="icon check">
-                    <use xlink:href="/dist/img/sprite.svg#check"></use>
-                  </svg> Подключение до 10 устройств</li>
-                <li>
-                  <svg class="icon check">
-                    <use xlink:href="/dist/img/sprite.svg#check"></use>
-                  </svg> Чат технической поддержки</li>
-                <li>
-                  <svg class="icon check">
-                    <use xlink:href="/dist/img/sprite.svg#check"></use>
-                  </svg> Подключение к 30 странам</li>
-                <li>
-                  <svg class="icon check">
-                    <use xlink:href="/dist/img/sprite.svg#check"></use>
-                  </svg> 99% гарантия бесперебойной работы</li>
-                <li>
-                  <svg class="icon check">
-                    <use xlink:href="/dist/img/sprite.svg#check"></use>
-                  </svg> Устойчивые протоколы: Shadowsocks, Vless</li>
-              </ul>
-            </div>
-            <div class="tarifs__list-item-actions">
-              <a class="button yellow-button go-to-section" href="/lk/subscription#order" onclick="ym(92743388,'reachGoal','step_tg');" @click="goToSection($event)">
-                <svg class="icon logo">
-                  <use xlink:href="/dist/img/sprite.svg#logo"></use>
-                </svg>
-                Попробовать бесплатно 10 дней
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="free-banner">
-      <div class="center-container">
-        <div class="feedback__card">
-          <div class="feedback__card-left-col"><img src="/dist/img/tarifs/free_tarif.webp"></div>
-          <div class="feedback__card-right-col">
-            <div class="feedback__card-title">10 ГБ бесплатно навсегда!</div>
-            <div class="feedback__card-desc">Скачайте файл и установите бесплатный Proxy сервер для своего мобильного телефона ПК без регистрации, рекламы, блокировки и ограничений в трафике</div>
-            <div class="feedback__card-action">
-              <a class="button black-button" target="_blank" href="https://vpntype.com/?target=tgm&amp;ref=site_vpntype" onclick="ym(92743388,'reachGoal','step_tg');">
-                <svg class="icon logo">
-                  <use xlink:href="/dist/img/sprite.svg#logo"></use>
-                </svg> Установить 'Название vp'</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section class="faq">
       <div class="center-container">
         <div class="faq__title">
@@ -1141,25 +1004,6 @@
                 <svg class="icon question">
                   <use xlink:href="/dist/img/sprite.svg#question"></use>
                 </svg>
-                <span itemprop="name">Безопасно ли использовать бесплатные VPN серверы?</span>
-                <a href="#" @click.prevent="toggleQuestion($event)">
-                  <svg class="icon next">
-                    <use xlink:href="/dist/img/sprite.svg#next"></use>
-                  </svg>
-                </a>
-              </div>
-              <div class="faq__questions-list-item-text" itemscope="" itemtype="https://schema.org/Answer">
-                <div itemprop="text">
-                  При использовании бесплатного VPN следует помнить, что ваша онлайн-активность может быть видна сервису VPN-серверов и посещаемым сайтам. Полная защита от таких угроз, как фишинг, при этом не обеспечивается. Важно выбирать VPN сервер, ориентируясь на отзывы пользователей, популярность и рейтинг сервиса.
-                </div>
-              </div>
-            </div>
-
-            <div class="faq__questions-list-item faq__questions-list-item--opened" itemscope="" itemtype="https://schema.org/Question">
-              <div class="faq__questions-list-item-title">
-                <svg class="icon question">
-                  <use xlink:href="/dist/img/sprite.svg#question"></use>
-                </svg>
                 <span itemprop="name">Можно ли доверять VPN при использовании банковских приложений?</span>
                 <a href="#" @click.prevent="toggleQuestion($event)">
                   <svg class="icon next">
@@ -1205,53 +1049,6 @@
                       <ul>
                         <li>Windows предлагает встроенные инструменты для подключения к сетям, но они больше подходят для корпоративных, а не личных нужд.</li>
                         <li>Большинство VPN-сервисов не совместимы со стандартными средствами Windows и предлагают свои приложения, которые предоставляют расширенные возможности управления подпиской и выбора серверов.</li>
-                      </ul>
-                    </li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-
-            <div class="faq__questions-list-item faq__questions-list-item--opened" itemscope="" itemtype="https://schema.org/Question">
-              <div class="faq__questions-list-item-title">
-                <svg class="icon question">
-                  <use xlink:href="/dist/img/sprite.svg#question"></use>
-                </svg>
-                <span itemprop="name">Как подключить и настроить VPN сервер?</span>
-                <a href="#" @click.prevent="toggleQuestion($event)">
-                  <svg class="icon next">
-                    <use xlink:href="/dist/img/sprite.svg#next"></use>
-                  </svg>
-                </a>
-              </div>
-              <div class="faq__questions-list-item-text" itemscope="" itemtype="https://schema.org/Answer">
-                <div itemprop="text">
-                  <ol>
-                    <li>Установка VPN сервер-клиента:
-                      <ul>
-                        <li>Для Windows 7, 8, 10, 11: Скачайте клиент с официального сайта VPN-сервиса и установите его, следуя инструкциям.</li>
-                        <li>Для iOS и Android: Найдите и установите приложение VPN из App Store или Google Play.</li>
-                      </ul>
-                    </li>
-                    <li>Регистрация и подписка:
-                      <ul>
-                        <li>В большинстве случаев требуется регистрация. Вы можете купить подписку или использовать бесплатный пробный период с ограниченным функционалом.</li>
-                      </ul>
-                    </li>
-                    <li>Выбор и подключение к VPN сервер-серверу:
-                      <ul>
-                        <li>Для более высокой скорости выбирайте сервер, расположенный ближе к вам.</li>
-                        <li>Подключитесь к серверу, нажав кнопку «Подключить».</li>
-                      </ul>
-                    </li>
-                    <li>Проверка соединения:
-                      <ul>
-                        <li>Убедитесь, что соединение защищено, проверив IP-адрес через сайт VPN-сервиса. Если виден IP-адрес сервера, соединение работает корректно.</li>
-                      </ul>
-                    </li>
-                    <li>Устранение проблем:
-                      <ul>
-                        <li>Если возникают проблемы или снижается скорость, попробуйте подключиться к другому серверу. Обычно платные VPN-сервисы обеспечивают стабильность соединения, в отличие от бесплатных.</li>
                       </ul>
                     </li>
                   </ol>
@@ -1318,30 +1115,6 @@
                 <svg class="icon question">
                   <use xlink:href="/dist/img/sprite.svg#question"></use>
                 </svg>
-                <span itemprop="name">Как выбрать VPN сервис?</span>
-                <a href="#" @click.prevent="toggleQuestion($event)">
-                  <svg class="icon next">
-                    <use xlink:href="/dist/img/sprite.svg#next"></use>
-                  </svg>
-                </a>
-              </div>
-              <div class="faq__questions-list-item-text" itemscope="" itemtype="https://schema.org/Answer">
-                <div itemprop="text">
-                  <ul>
-                    <li>Политика конфиденциальности - Важно изучить, есть ли у сервиса "свидетельство канарейки" (warrant canary), указывающее, что спецслужбы не запрашивали данные пользователей.</li>
-                    <li>Юрисдикция компании - Учитывайте место регистрации сервиса и местоположение его серверов. В Европе действует строгий GDPR, в Азии и США законодательство менее защищает данные.</li>
-                    <li>Цена услуг - Ищите сервис с адекватной стоимостью, не переплачивайте за бренд. Платные сервисы часто предлагают большую безопасность и анонимность.</li>
-                    <li>Информация для регистрации - Хорошие сервисы не требуют много личной информации и позволяют регистрироваться без привязки к социальным сетям.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="faq__questions-list-item faq__questions-list-item--opened" itemscope="" itemtype="https://schema.org/Question">
-              <div class="faq__questions-list-item-title">
-                <svg class="icon question">
-                  <use xlink:href="/dist/img/sprite.svg#question"></use>
-                </svg>
                 <span itemprop="name">VPN обеспечивает защиту от различных угроз?</span>
                 <a href="#" @click.prevent="toggleQuestion($event)">
                   <svg class="icon next">
@@ -1381,51 +1154,6 @@
                     <li>Если сервис активно следит за нагрузкой на своих серверах и своевременно увеличивает их количество, это может помочь минимизировать потери скорости.</li>
                   </ul>
                   Качественный VPN-сервис с минимальной загрузкой серверов и эффективным шифрованием может снизить скорость интернета незначительно и пользователь вряд ли почувствует разницу в повседневном использовании.
-                </div>
-              </div>
-            </div>
-
-            <div class="faq__questions-list-item faq__questions-list-item--opened" itemscope="" itemtype="https://schema.org/Question">
-              <div class="faq__questions-list-item-title">
-                <svg class="icon question">
-                  <use xlink:href="/dist/img/sprite.svg#question"></use>
-                </svg>
-                <span itemprop="name">В каких странах запрещены VPN?</span>
-                <a href="#" @click.prevent="toggleQuestion($event)">
-                  <svg class="icon next">
-                    <use xlink:href="/dist/img/sprite.svg#next"></use>
-                  </svg>
-                </a>
-              </div>
-              <div class="faq__questions-list-item-text" itemscope="" itemtype="https://schema.org/Answer">
-                <div itemprop="text">
-                  Китай, Ирак, ОАЭ, Турция, Оман, Иран, КНДР, Туркменистан, Мьянма.
-                  <br> В России также имеются ограничения на использование VPN-сервисов. В декабре Роскомнадзор объявил о планах введения централизованного управления средствами обхода ограничений запрещенной информации, что влияет на работу некоторых VPN-сервисов в стране. Это означает, что в России допустимо использование только тех VPN-сервисов, которые сотрудничают с властями и не позволяют обходить цензуру.
-                </div>
-              </div>
-            </div>
-
-            <div class="faq__questions-list-item faq__questions-list-item--opened" itemscope="" itemtype="https://schema.org/Question">
-              <div class="faq__questions-list-item-title">
-                <svg class="icon question">
-                  <use xlink:href="/dist/img/sprite.svg#question"></use>
-                </svg>
-                <span itemprop="name">Как включить/отключить VPN на компьютере и телефоне?</span>
-                <a href="#" @click.prevent="toggleQuestion($event)">
-                  <svg class="icon next">
-                    <use xlink:href="/dist/img/sprite.svg#next"></use>
-                  </svg>
-                </a>
-              </div>
-              <div class="faq__questions-list-item-text" itemscope="" itemtype="https://schema.org/Answer">
-                <div itemprop="text">
-                  <b>Windows</b>: Откройте "Панель управления" → Перейдите в раздел "Сеть и Интернет" и затем в "Центр управления сетями и общим доступом" → Выберите "Изменить параметры адаптера" → Найдите VPN сервер-соединение, щелкните по нему правой кнопкой мыши и выберите "Отключить".
-                  <br>
-                  <b>MacOS</b>: Откройте "Системные настройки" → Перейдите в раздел "Сеть" → Выберите VPN сервер-соединение в списке слева → Нажмите кнопку "Отключить".
-                  <br>
-                  <b>Android</b>: Откройте "Настройки" на устройстве → Перейдите в раздел "Сеть и интернет" или "Подключения" (зависит от версии Android и оболочки) → Найдите раздел "VPN сервер" и выберите активное VPN сервер-соединение → Нажмите "Отключить" или "Разорвать соединение".
-                  <br>
-                  <b>iPhone</b>: Откройте "Настройки" → Выберите "VPN сервер" → Если VPN подключен, вы увидите переключатель рядом с названием соединения. Просто переключите его в положение "Выкл".
                 </div>
               </div>
             </div>
