@@ -20,3 +20,5 @@ yarn-error.log
 /.vscode
 /.zed
 .history
+vpn/node_modules
+vpn/vendor

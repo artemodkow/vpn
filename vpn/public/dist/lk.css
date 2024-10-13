@@ -1,8 +1,10 @@
-.user-area__profile, .user-area__profile a {
+.user-area__profile,
+.user-area__profile a {
     color: var(--Black, #2c2c35)
 }
 
-.connect__step-select, .connect__step-select:hover {
+.connect__step-select,
+.connect__step-select:hover {
     transition: background .3s
 }
 
@@ -14,7 +16,7 @@ main.user-area {
     min-width: 356px;
     position: absolute;
     z-index: 100;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 .user-area__right-col {
@@ -93,7 +95,8 @@ main.user-area {
     border-radius: 12px
 }
 
-.user-area__menu-nav ul li a:hover, .user-area__menu-nav ul li.current a {
+.user-area__menu-nav ul li a:hover,
+.user-area__menu-nav ul li.current a {
     background: var(--Violet, #5c75c9);
     color: var(--White, #fff)
 }
@@ -105,7 +108,8 @@ main.user-area {
     margin-right: 10px
 }
 
-.user-area__menu-nav ul li a:hover .icon, .user-area__menu-nav ul li.current a .icon {
+.user-area__menu-nav ul li a:hover .icon,
+.user-area__menu-nav ul li.current a .icon {
     --svgcolor: #FFF
 }
 
@@ -157,15 +161,20 @@ main.user-area {
 }
 
 @keyframes bell-shaking {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: rotate(0)
     }
+
     25% {
         transform: rotate(8deg)
     }
+
     50% {
         transform: rotate(0eg)
     }
+
     75% {
         transform: rotate(-8deg)
     }
@@ -197,7 +206,9 @@ main.user-area {
     }
 }
 
-.connect form label input[type=radio][name=server], .header__navigation-submenu.user-area__notifications, .user-area__notifications--opened .user-area__user-menu {
+.connect form label input[type=radio][name=server],
+.header__navigation-submenu.user-area__notifications,
+.user-area__notifications--opened .user-area__user-menu {
     display: none !important
 }
 
@@ -237,7 +248,8 @@ main.user-area {
     color: var(--Black, #2c2c35) !important
 }
 
-.user-area__notification-item:first-child, .user-area__notification-item:last-child {
+.user-area__notification-item:first-child,
+.user-area__notification-item:last-child {
     padding-top: 16px
 }
 
@@ -296,11 +308,16 @@ main.user-area {
     transform: rotate(-90deg) !important
 }
 
-section.how-it-works, section.partner-banner, section.partner-reward, section.partner-stat, section.premium-subscription {
+section.how-it-works,
+section.partner-banner,
+section.partner-reward,
+section.partner-stat,
+section.premium-subscription {
     padding-bottom: 80px
 }
 
-.connect__step-server-config, .premium-subscription__cards {
+.connect__step-server-config,
+.premium-subscription__cards {
     display: flex;
     width: 100%
 }
@@ -322,7 +339,8 @@ section.how-it-works, section.partner-banner, section.partner-reward, section.pa
     background: #fff
 }
 
-.connect__step-select:hover, .connect__steps-container label.selected .connect__step-select {
+.connect__step-select:hover,
+.connect__steps-container label.selected .connect__step-select {
     background: var(--Grey, #e2e5eb)
 }
 
@@ -345,11 +363,12 @@ section.how-it-works, section.partner-banner, section.partner-reward, section.pa
     line-height: 140%
 }
 
-.premium-subscription__info-bottom, .premium-subscription__info-container .caption {
+.premium-subscription__info-bottom,
+.premium-subscription__info-container .caption {
     color: var(--white-60, rgba(255, 255, 255, .6))
 }
 
-.premium-subscription__info-container > div {
+.premium-subscription__info-container>div {
     padding: 4px 0
 }
 
@@ -414,7 +433,9 @@ section.subscription-manage {
     padding-bottom: 24px
 }
 
-.connect__step-groups, .connect__step-protocols, .subscription-manage__container {
+.connect__step-groups,
+.connect__step-protocols,
+.subscription-manage__container {
     display: flex;
     justify-content: space-between
 }
@@ -451,7 +472,8 @@ section.subscription-manage {
     margin-bottom: 10px
 }
 
-.devices__wrapper, .subscription-manage__container-item-card-left {
+.devices__wrapper,
+.subscription-manage__container-item-card-left {
     display: flex
 }
 
@@ -481,7 +503,9 @@ section.subscription-manage {
     height: 44px
 }
 
-.subscription-manage__container-item-card .icon.logo.logo--premium, .subscription-manage__container-item-card-actions a .icon.delete:hover, .subscription-manage__container-item-card-actions a .icon.star:hover {
+.subscription-manage__container-item-card .icon.logo.logo--premium,
+.subscription-manage__container-item-card-actions a .icon.delete:hover,
+.subscription-manage__container-item-card-actions a .icon.star:hover {
     --svgcolor: #5C75C9
 }
 
@@ -494,7 +518,8 @@ section.subscription-manage {
     align-items: center
 }
 
-.settings__list, .subscription-manage__container-item-card-list {
+.settings__list,
+.subscription-manage__container-item-card-list {
     width: 100%
 }
 
@@ -512,7 +537,8 @@ section.subscription-manage {
     margin-bottom: 16px
 }
 
-.subscription-manage__container-item-card-actions a .icon.delete, .subscription-manage__container-item-card-actions a .icon.star {
+.subscription-manage__container-item-card-actions a .icon.delete,
+.subscription-manage__container-item-card-actions a .icon.star {
     width: 24px;
     height: 24px;
     --svgcolor: #C2C4CA;
@@ -531,7 +557,8 @@ section.subscription-manage {
     padding: 0 0 16px
 }
 
-.connect__step-select, .connect__step-title {
+.connect__step-select,
+.connect__step-title {
     font-weight: 500;
     color: var(--Black, #2c2c35)
 }
@@ -582,7 +609,8 @@ section.connect {
     margin-right: 10px
 }
 
-.connect__step-select .icon, .connect__step-server-item .icon.flag {
+.connect__step-select .icon,
+.connect__step-server-item .icon.flag {
     height: 16px;
     margin-right: 8px;
     width: 16px
@@ -590,7 +618,7 @@ section.connect {
 
 .connect__step-platforms {
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px
 }
@@ -670,7 +698,8 @@ section.connect {
         flex-direction: column
     }
 
-    .user-area__header-row:not(.user-area__header-row--mobile) .user-area__header-section-title, .user-area__menu-container {
+    .user-area__header-row:not(.user-area__header-row--mobile) .user-area__header-section-title,
+    .user-area__menu-container {
         display: none
     }
 
@@ -743,17 +772,21 @@ section.connect {
     padding: 17px 16px
 }
 
-.connect__step-groups label:not(:last-child), .connect__step-protocols label:not(:last-child), .connect__step-protocols-left-col .connect__step-select:not(:last-child) {
+.connect__step-groups label:not(:last-child),
+.connect__step-protocols label:not(:last-child),
+.connect__step-protocols-left-col .connect__step-select:not(:last-child) {
     margin-bottom: 16px
 }
 
-.connect__step-groups-left-col, .connect__step-protocols-left-col {
+.connect__step-groups-left-col,
+.connect__step-protocols-left-col {
     width: 100%;
     max-width: 50%;
     display: block
 }
 
-.connect__step-groups-right-col, .connect__step-protocols-right-col {
+.connect__step-groups-right-col,
+.connect__step-protocols-right-col {
     padding-left: 30px;
     width: 100%;
     max-width: 50%
@@ -785,7 +818,7 @@ section.connect {
     display: grid;
     grid-column-gap: 20px;
     grid-row-gap: 16px;
-    grid-template-columns:1fr 1fr
+    grid-template-columns: 1fr 1fr
 }
 
 .connect__step-server-item--unavailable {
@@ -876,7 +909,7 @@ section.connect {
 
 @media screen and (max-width: 1190px) {
     .connect__step-servers {
-        grid-template-columns:1fr
+        grid-template-columns: 1fr
     }
 
     .connect__step-server-config {
@@ -910,7 +943,8 @@ section.connect {
     margin-bottom: 24px
 }
 
-.connect__step-server-config-download-title, .partner-reward__wrap {
+.connect__step-server-config-download-title,
+.partner-reward__wrap {
     display: flex;
     justify-content: space-between
 }
@@ -923,7 +957,8 @@ section.connect {
     line-height: 140%
 }
 
-.connect__step-server-config-download-content .input-wrap .icon.file, .connect__step-server-config-download-content .input-wrap .icon.key {
+.connect__step-server-config-download-content .input-wrap .icon.file,
+.connect__step-server-config-download-content .input-wrap .icon.key {
     margin-right: 6px;
     width: 20px;
     height: 20px
@@ -988,7 +1023,7 @@ a.config-download-link {
     padding: 0 !important
 }
 
-.settings__list > div {
+.settings__list>div {
     float: left;
     position: relative;
     width: 100%;
@@ -1116,7 +1151,9 @@ a.config-download-link {
 }
 
 @media screen and (max-width: 480px) {
-    .settings__list-item-container-content-action a .button, .settings__list-item-social .settings__list-item-container-content-name span {
+
+    .settings__list-item-container-content-action a .button,
+    .settings__list-item-social .settings__list-item-container-content-name span {
         display: none
     }
 
@@ -1171,7 +1208,8 @@ a.config-download-link {
     padding-bottom: 24px
 }
 
-.partner-stat__selected-period, .user-area-popup__bottom {
+.partner-stat__selected-period,
+.user-area-popup__bottom {
     padding-top: 32px
 }
 
@@ -1336,7 +1374,8 @@ a.config-download-link {
     line-height: 140%
 }
 
-.devices__list-item-created, .devices__list-item-created-date {
+.devices__list-item-created,
+.devices__list-item-created-date {
     white-space: nowrap;
     display: flex;
     align-items: center;
@@ -1418,7 +1457,7 @@ a.config-download-link {
     justify-content: space-between
 }
 
-.partner-banner__top > div {
+.partner-banner__top>div {
     width: 100%
 }
 
@@ -1428,7 +1467,8 @@ a.config-download-link {
     text-align: right
 }
 
-.partner-banner__top-right-col img, .partner-stat__periods ul li {
+.partner-banner__top-right-col img,
+.partner-stat__periods ul li {
     display: inline-block
 }
 
@@ -1525,7 +1565,8 @@ a.config-download-link {
     height: 20px
 }
 
-.how-it-works__title, .partner-reward__title {
+.how-it-works__title,
+.partner-reward__title {
     color: var(--Black, #2c2c35);
     font-size: 28px;
     font-weight: 600;
@@ -1686,7 +1727,8 @@ a.config-download-link {
     line-height: 120%
 }
 
-.partner-reward__balance, .partner-reward__history {
+.partner-reward__balance,
+.partner-reward__history {
     width: 100%;
     border-radius: 20px;
     background: #fff;
@@ -1722,7 +1764,7 @@ a.config-download-link {
         flex-direction: column
     }
 
-    .partner-banner__top > div {
+    .partner-banner__top>div {
         max-width: 100% !important
     }
 
@@ -1735,7 +1777,8 @@ a.config-download-link {
         text-align: center
     }
 
-    .partner-reward__balance, .partner-reward__history {
+    .partner-reward__balance,
+    .partner-reward__history {
         padding: 26px 24px
     }
 }
@@ -1744,7 +1787,8 @@ a.config-download-link {
     margin-right: 32px
 }
 
-.partner-reward__balance-title, .partner-reward__history-title {
+.partner-reward__balance-title,
+.partner-reward__history-title {
     color: var(--Black, #2c2c35);
     font-size: 20px;
     font-weight: 500;
@@ -1833,7 +1877,7 @@ a.config-download-link {
     margin-right: 10px
 }
 
-.partner-reward__history-list-item > span {
+.partner-reward__history-list-item>span {
     display: inline-flex;
     align-items: center
 }
@@ -1933,7 +1977,12 @@ section.gift-banner {
 }
 
 @media screen and (max-width: 1350px) {
-    .gift-banner__container, .partner-reward__wrap, .premium-subscription__cards, .settings__list, .subscription-manage__container {
+
+    .gift-banner__container,
+    .partner-reward__wrap,
+    .premium-subscription__cards,
+    .settings__list,
+    .subscription-manage__container {
         flex-direction: column
     }
 
@@ -1950,7 +1999,7 @@ section.gift-banner {
         margin: -30px 0 0
     }
 
-    .settings__list > div {
+    .settings__list>div {
         max-width: unset
     }
 
@@ -1988,22 +2037,25 @@ section.gift-banner {
 
 @media screen and (max-width: 600px) {
     .connect__step-platforms {
-        grid-template-columns:1fr
+        grid-template-columns: 1fr
     }
 
     .connect__step-select {
         font-size: 14px
     }
 
-    .connect__step-groups, .connect__step-protocols {
+    .connect__step-groups,
+    .connect__step-protocols {
         flex-direction: column
     }
 
-    .connect__step-groups-left-col, .connect__step-protocols-left-col {
+    .connect__step-groups-left-col,
+    .connect__step-protocols-left-col {
         max-width: 100%
     }
 
-    .connect__step-groups-right-col, .connect__step-protocols-right-col {
+    .connect__step-groups-right-col,
+    .connect__step-protocols-right-col {
         padding-left: 0;
         max-width: 100%
     }
@@ -2028,7 +2080,8 @@ section.gift-banner {
         line-height: 140%
     }
 
-    .partner-banner__top .input-wrap .input, .partner-reward__history-list-item span.date {
+    .partner-banner__top .input-wrap .input,
+    .partner-reward__history-list-item span.date {
         font-size: 14px
     }
 
