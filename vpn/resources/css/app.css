@@ -1,0 +1,290 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+
+/* * {
+    outline: 1px solid red;
+} */
+
+/* working slick slider */
+
+/* body {
+    overflow-x: hidden;
+} */
+
+
+.slick-dots {
+    display: flex !important;
+}
+
+/* .slick-slider {
+    left: 7% !important;
+} */
+
+.slick-dots li {
+    width: 70px !important;
+    height: 7px !important;
+}
+
+.slick-dots li.slick-active:before {
+    width: 75px !important;
+    height: 25px !important;
+    border-radius: 25px !important;
+    background-color: #f53838 !important;
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+    .slick-dots li.slick-active:before {
+        width: 50px !important;
+    }
+}
+
+.slick-slide {
+    margin: 0 27px;
+}
+
+.slick-list {
+    margin: 0 -27px;
+}
+
+.slick-dots li:before {
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 25px !important;
+    background-color: #DDE0E4 !important;
+}
+
+.slick-slide {
+    margin: 10px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -30px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li:before {
+    top: 1px;
+    transition: all 0.5s;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.slick-dots li.slick-active:before {
+    top: 0;
+    width: 8px;
+    height: 8px;
+    margin-left: -2px;
+    background-color: #f53838;
+}
+
+.slick-arrow,
+.slick-hidden {
+    display: unset !important;
+}
+
+/* .slick-slide {
+    width: 700px !important;
+} */
+
+
+
+
+@media (min-width: 1440px) {
+    .over-slider {
+        z-index: 2;
+    }
+
+    .slick-list {
+        overflow: visible;
+        padding: 0 20% 0 0;
+        position: relative;
+    }
+
+    .slick-list::after {
+        content: ' ';
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        width: 4000px;
+        right: 90%;
+        background-color: white;
+    }
+
+
+}
+
+.carousel {
+    width: 100%;
+    margin: 0px auto;
+}
+
+/* .slick-active{
+    border: 2px solid red;
+} */
+@media (min-width: 1600px) {
+    /* .carousel {
+        width: 139%;
+        margin: 0px auto;
+    } */
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 8px;
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #393812;
+    -webkit-border-radius: 0ex;
+    /* -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75); */
+    background: black;
+}
+
+::-webkit-scrollbar-corner {
+    background: white;
+}
+
+#scrollToTop {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    box-shadow: 0 0 14px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    font-family: "Arial";
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -12rem;
+    transition: margin-bottom 0.2s;
+
+    &.active {
+        margin-bottom: 0;
+    }
+
+    &:hover {
+        animation-name: rotate;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(2520deg);
+    }
+}
+
+/* #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: red;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+} */
+
+/* #myBtn:hover {
+    background-color: #555;
+} */
+
+
+.slick-list {
+    padding: 0 !important;
+}
+
+
+.slick-track {
+    left: 44% !important;
+}
+
+/* .slick-slider {
+    left: 10% !important;
+} */
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .slick-dots {
+        width: 44%;
+    }
+}
+
+
+
+/* .slick-dots {
+    position: unset !important;
+    justify-content: center !important;
+} */
+
+
+@media (min-width: 1024px) {
+    .slick-dots {
+        max-width: 44%;
+    }
+}
+
+@media (max-width: 768px) {
+    .slick-dots {
+        bottom: -100px !important;
+    }
+
+    .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .slick-dots {
+        left: 9% !important;
+    }
+}
+
+.slick-dots li button {
+    font-size: 0 !important;
+}
+
+/* button,
+input,
+optgroup,
+select,
+textarea {} */
