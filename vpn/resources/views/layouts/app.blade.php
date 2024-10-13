@@ -38,7 +38,7 @@
 
                 <!-- Page Content -->
                 <main class="py-6">
-                    {{ $slot }}
+                    @yield('content')
                 </main>
             </div>
         </div>

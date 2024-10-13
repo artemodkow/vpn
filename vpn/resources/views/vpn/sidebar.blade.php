@@ -16,25 +16,22 @@
         </div>
         <div class="user-area__menu-nav">
             <ul>
-                <li><a href="{{ url('/lk/connect') }}"><svg class="icon internet-security">
+                <li><a href="{{ url('/connect-vpn') }}"><svg class="icon internet-security">
                     <use xlink:href="{{ asset('img2/sprite.svg#internet-security') }}"></use>
                 </svg> Подключить VPN</a></li>
-                <li class="current"><a href="{{ url('/lk/configurations') }}"><svg class="icon active">
+                <li class="current"><a href="{{ url('/active-configurations') }}"><svg class="icon active">
                     <use xlink:href="{{ asset('img2/sprite.svg#active') }}"></use>
                 </svg> Активные конфигурации</a></li>
-                <li><a href="{{ url('/lk/subscription') }}"><svg class="icon rocket">
+                <li><a href="{{ url('/subscription') }}"><svg class="icon rocket">
                     <use xlink:href="{{ asset('img2/sprite.svg#rocket') }}"></use>
                 </svg> Подписка</a></li>
-                <li><a href="{{ url('/lk/gift') }}"><svg class="icon gift">
-                    <use xlink:href="{{ asset('img2/sprite.svg#gift') }}"></use>
-                </svg> Подарить подписку</a></li>
-                <li><a href="{{ url('/lk/partner') }}"><svg class="icon link">
+                <li><a href="{{ url('/referal') }}"><svg class="icon link">
                     <use xlink:href="{{ asset('img2/sprite.svg#link') }}"></use>
                 </svg> Реферальная программа</a></li>
-                <li><a href="{{ url('/lk/settings') }}"><svg class="icon setting">
+                <li><a href="{{ url('/settings') }}"><svg class="icon setting">
                     <use xlink:href="{{ asset('img2/sprite.svg#setting') }}"></use>
                 </svg> Настройки аккаунта</a></li>
-                <li><a href="{{ url('/lk/support') }}"><svg class="icon ask">
+                <li><a href="{{ url('/support') }}"><svg class="icon ask">
                     <use xlink:href="{{ asset('img2/sprite.svg#ask') }}"></use>
                 </svg> Поддержка</a></li>
             </ul>
