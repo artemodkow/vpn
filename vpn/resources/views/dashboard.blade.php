@@ -4,7 +4,6 @@
     @include('vpn.sidebar')
     @include('vpn.header')
 
-        @yield('content')
-    </div>
+    @yield('content')
 </main>
 @include('vpn.footer')

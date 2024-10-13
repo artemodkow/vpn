@@ -88,21 +88,12 @@
             </div>
             @guest
             <div>
-              <a href="{{ route('login') }}" class="button header__user-area-button">Sign In</a>
+              <a href="{{ route('login') }}" class="button header__user-area-button" style="margin-right:10px">Sign In</a>
             </div>
             <div>
               <a href="{{ route('register') }}" class="button header__user-area-button">Sign Up</a>
             </div>
             @endguest
-            <div class="header__navigation-open">
-              <a href="#">RU<svg class="icon next">
-                  <use xlink:href="/dist/img/sprite.svg#next"></use>
-                </svg></a>
-              <ul class="header__navigation-submenu">
-                <li><a href="/ru">Русский</a></li>
-                <li><a href="/en">English</a></li>
-              </ul>
-            </div>
           </div>
         </div>
         <div class="header__mobile">
