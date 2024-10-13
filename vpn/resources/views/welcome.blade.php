@@ -8,7 +8,7 @@
   <title>Lasles VPN</title>
   <style>
     /* npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch */
-    
+
     @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
   </style>
 
@@ -191,7 +191,7 @@
               <br>
               <br> Настройка VPN &amp; Proxy производиться через телеграм бота 'Название vpn' (это занимает не более 2 минут). Подключите бесплатные сервера с высокой скорость до 100 mb/s. Сервис 'Название vpn' использует OpenSoure приложения для подключения к VPN &amp; Proxy.</div>
             <div class="main-promo__title-actions">
-              
+
               <a class="button black-button" href="/register" onclick="ym(92743388,'reachGoal','step_tg');">
                 Начать</a>
             </div>
@@ -1437,93 +1437,7 @@
 
   </main>
 
-  <footer>
-    <div class="footer__top">
-      <div class="center-container">
-        <div class="footer__row">
-          <div class="footer__left-col">
-            <div class="footer__brand">
-              <svg class="icon brand">
-                <use xlink:href="/dist/img/Logo.svg"></use>
-              </svg>
-            </div>
-            <div class="footer__social">
-              <a href="#">
-                <svg class="icon vk">
-                  <use xlink:href="/dist/img/sprite.svg#vk"></use>
-                </svg>
-              </a>
-              <a href="#">
-                <svg class="icon youtube">
-                  <use xlink:href="/dist/img/sprite.svg#youtube"></use>
-                </svg>
-              </a>
-              <a href="#">
-                <svg class="icon telegram">
-                  <use xlink:href="/dist/img/sprite.svg#telegram"></use>
-                </svg>
-              </a>
-            </div>
-            <div class="footer__email">
-              <a href="#">
-                <svg class="icon mail">
-                  <use xlink:href="/dist/img/sprite.svg#mail"></use>
-                </svg> helpdesk@vpntype.com</a>
-            </div>
-          </div>
-          <div class="footer__right-col">
-            <div class="footer__nav-column">
-              <div class="footer__nav-column-title">Навигация</div>
-              <div class="footer__nav-column-list">
-                <ul>
-                  <li><a hhref="/ru">Главная</a></li>
-                  <li><a href="/ru/pricing">Тарифы</a></li>
-                  <li><a href="/lk">Личный кабинет</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="footer__nav-column">
-              <div class="footer__nav-column-title">Скачать Proxy сервер </div>
-              <div class="footer__nav-column-list">
-                <ul>
-                  <li><a href="/ru/free-iphone">Proxy сервер для IPhone</a></li>
-                  <li><a href="/ru/free-android">Proxy сервер для Android</a></li>
-                  <li><a href="/ru/free-macos">Proxy сервер для MacOS</a></li>
-                  <li><a href="/ru/free-windows">Proxy сервер для Windows</a></li>
-                  <li><a href="/ru/free-google-chrome">Proxy сервер для Chrome</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="footer__nav-column">
-              <div class="footer__nav-column-title">Поддержка</div>
-              <div class="footer__nav-column-list">
-                <ul>
-                  <li><a href="/ru/payment-methods">Способы оплаты</a></li>
-                  <li><a href="/ru/policy">Политика конфиденциальности</a></li>
-                  <li><a href="/ru/terms-of-service">Пользовательское соглашение</a></li>
-                  <li><a href="/ru/support">Поддержка</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <div class="center-container">
-        <div class="footer__row">
-          <div class="footer__copyright">© 2024. Все права защищены</div>
-          <div class="footer__pay-methods"><img src="/dist/img/footer/banks.webp"></div>
-          <div class="footer__ssl-cert">
-            <span><svg class="icon lock">
-                <use xlink:href="/dist/img/sprite.svg#lock"></use>
-            </svg> SSL Certificate by Sertico</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  @include('vpn.footer')
 
   <div class="modal-window" :class="[isPopupOpen ? 'modal-window--opened' : '']">
     <div class="modal-window__container">
