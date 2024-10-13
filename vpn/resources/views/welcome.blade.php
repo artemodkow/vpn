@@ -8,7 +8,7 @@
   <title>Lasles VPN</title>
   <style>
     /* npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch */
-
+    
     @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
   </style>
 
@@ -191,7 +191,7 @@
               <br>
               <br> Настройка VPN &amp; Proxy производиться через телеграм бота 'Название vpn' (это занимает не более 2 минут). Подключите бесплатные сервера с высокой скорость до 100 mb/s. Сервис 'Название vpn' использует OpenSoure приложения для подключения к VPN &amp; Proxy.</div>
             <div class="main-promo__title-actions">
-
+              
               <a class="button black-button" href="/register" onclick="ym(92743388,'reachGoal','step_tg');">
                 Начать</a>
             </div>
