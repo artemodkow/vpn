@@ -1548,7 +1548,7 @@ section.tarifs {
 .footer__top {
     padding: 50px 0;
     min-height: 338px;
-    background: var(--Black, #2c2c35)
+    background: var(--Black, #2c2c35);
 }
 
 .footer__bottom {
@@ -1595,6 +1595,10 @@ section.tarifs {
 .footer__email,
 .footer__email a {
     font-weight: 400
+}
+
+.footer{
+    margin-top: 70px
 }
 
 .footer__nav-column-list ul li {

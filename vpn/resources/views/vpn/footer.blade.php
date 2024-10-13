@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer">
     <div class="footer__top">
       <div class="center-container">
         <div class="footer__row">
@@ -29,7 +29,7 @@
               <a href="#">
                 <svg class="icon mail">
                   <use xlink:href="/dist/img/sprite.svg#mail"></use>
-                </svg> helpdesk@vpntype.com</a>
+                </svg> vpn@vpn.com</a>
             </div>
           </div>
           <div class="footer__right-col">
@@ -47,11 +47,7 @@
               <div class="footer__nav-column-title">Скачать Proxy сервер </div>
               <div class="footer__nav-column-list">
                 <ul>
-                  <li><a href="/ru/free-iphone">Proxy сервер для IPhone</a></li>
-                  <li><a href="/ru/free-android">Proxy сервер для Android</a></li>
-                  <li><a href="/ru/free-macos">Proxy сервер для MacOS</a></li>
                   <li><a href="/ru/free-windows">Proxy сервер для Windows</a></li>
-                  <li><a href="/ru/free-google-chrome">Proxy сервер для Chrome</a></li>
                 </ul>
               </div>
             </div>
@@ -79,7 +75,7 @@
           <div class="footer__ssl-cert">
             <span><svg class="icon lock">
                 <use xlink:href="/dist/img/sprite.svg#lock"></use>
-            </svg> SSL Certificate by Sertico</span>
+            </svg> SSL Certificate by vpn</span>
           </div>
         </div>
       </div>
