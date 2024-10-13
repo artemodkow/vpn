@@ -5,7 +5,7 @@
                 <use xlink:href="/dist/img/sprite.svg#menu"></use>
             </svg>
         </a>
-        <span class="user-area__header-section-title"> Активные конфигурации</span>
+        <span class="user-area__header-section-title"></span>
         <span class="user-area__profile"><!---->
             <svg class="icon user">
                 <use xlink:href="/dist/img/sprite.svg#user"></use>
