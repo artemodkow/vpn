@@ -847,8 +847,6 @@ section.connect {
 }
 
 .connect__step-server-item .icon.trafic {
-    width: 18px;
-    height: 18px;
     margin-bottom: 2px;
     margin-right: 4px;
     margin-left: 10px
@@ -933,11 +931,13 @@ section.connect {
 }
 
 .connect__step-server-config-download {
+    width: 40%;
     border-radius: 12px;
     background: var(--Grey, #e2e5eb);
     padding: 17px 16px;
-    width: 100%;
-    margin-bottom: 24px
+    height: 20%;
+    margin-top: 15px;
+    margin-bottom: 24px;
 }
 
 .connect__step-server-config-download-title,
@@ -945,6 +945,7 @@ section.connect {
     display: flex;
     justify-content: space-between
 }
+
 
 .connect__step-server-config-download-content-text {
     padding: 20px 0 12px;
@@ -976,7 +977,7 @@ section.connect {
     line-height: 130%
 }
 
-a.config-download-link {
+.config-download-link {
     margin-left: 20px;
     display: inline-flex;
     align-items: center;
@@ -984,6 +985,10 @@ a.config-download-link {
     font-size: 12px;
     font-weight: 500;
     line-height: 140%
+}
+
+.file-name {
+    margin-right: 15px;
 }
 
 .connect__step-server-info label:not(:last-child) {
@@ -1035,6 +1040,12 @@ a.config-download-link {
 
 .settings__list-item {
     padding-bottom: 32px
+}
+.icon-traffic {
+    width: 15px;
+    height: 12px;
+    margin-right: 4px;
+    margin-left: 4px
 }
 
 .settings__list-item-title {
