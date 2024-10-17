@@ -813,9 +813,9 @@ section.connect {
 
 .connect__step-servers {
     display: grid;
-    grid-column-gap: 20px;
-    grid-row-gap: 16px;
-    grid-template-columns: 1fr 1fr
+    grid-template-columns: repeat(2, 1fr); /* Два столбца */
+    gap: 16px; /* Отступ между блоками */
+    width: 100%; /* Полная ширина */
 }
 
 .connect__step-server-item--unavailable {
@@ -958,7 +958,8 @@ section.connect {
 .connect__step-server-config-download-content .input-wrap .icon.file,
 .connect__step-server-config-download-content .input-wrap .icon.key {
     margin-right: 6px;
-    width: 20px;
+    width: 100%; /* Занимает 100% ширины родительского контейнера */
+    margin-top: 10px;
     height: 20px
 }
 
@@ -1336,6 +1337,8 @@ section.connect {
     align-items: center;
     padding: 19px 16px;
     border-radius: 12px;
+    flex-wrap: wrap;
+    width: 100%;
     background: var(--White, #fff);
     margin-bottom: 16px
 }
@@ -1526,6 +1529,20 @@ section.connect {
     min-height: 49px;
     min-width: 49px
 }
+.qr-button {
+    background-color: #f7f7f7; /* Начальный цвет фона */
+
+    padding: 10px 15px; /* Отступы */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Плавный переход */
+    border-radius: 4px; /* Закругленные углы */
+}
+
+.qr-button:hover {
+    background-color: #e0e0e0; /* Цвет фона при наведении */
+    border-color: #888; /* Цвет границы при наведении */
+}
+
 
 .partner-banner__top .input-wrap .button .icon.copy {
     display: none;
@@ -1761,7 +1778,10 @@ section.connect {
     }
 
     .connect__step-select.connect__step-server-item {
-        padding: 27px 16px
+        padding: 27px 16px;
+        border: 1px solid #ccc; /* Добавить границу для лучшей видимости */
+        border-radius: 8px; /* Скругленные углы */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
     }
 
     .user-area__main .tarifs .tarifs__list-item {

@@ -26,7 +26,7 @@
                     <a  href="{{ url('/subscription') }}"><svg class="icon rocket">
                     <use xlink:href="{{ asset('/dist/img/sprite.svg#rocket') }}"></use>
                 </svg> Подписка</a></li>
-                <li @if(Request::path() === 'referal')
+                <!-- <li @if(Request::path() === 'referal')
                         class="current"
                     @endif>
                     <a  href="{{ url('/referal') }}"><svg class="icon link">
@@ -43,7 +43,7 @@
                     @endif>
                     <a  href="{{ url('/support') }}"><svg class="icon ask">
                     <use xlink:href="{{ asset('/dist/img/sprite.svg#ask') }}"></use>
-                </svg> Поддержка</a></li>
+                </svg> Поддержка</a></li>-->
                 <li><a href="/" class="go-back-link main-link"><svg class="icon arrow">
                     <use xlink:href="{{ asset('dist/img/sprite.svg#arrow') }}"></use>
                 </svg> Вернуться на сайт</a></li>

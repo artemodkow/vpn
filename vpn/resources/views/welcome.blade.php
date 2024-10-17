@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="shortcut icon" href="/dist/img/Logo.svg" type="image/x-icon">
-  <title>Lasles VPN</title>
+  <title>NetMimic</title>
   <style>
     /* npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch */
 
@@ -177,8 +177,8 @@
 
         <div class="row main-promo__content">
           <div class="col col-left">
-            <h1 class="main-promo__title">VPN &amp; Proxy на ПК и телефон для России</h1>
-            <div class="main-promo__title-sub">Скачайте VPN &amp; Proxy для устройств на Windows, MacOS, iPhone, Android.
+            <h1 class="main-promo__title">NetMimic VPN &amp; Proxy на ПК и телефон для России</h1>
+            <div class="main-promo__title-sub">Скачайте NetMimic VPN &amp; Proxy для устройств на Windows, MacOS, iPhone, Android.
               <br>
               <br> Настройка VPN &amp; Proxy занимет не более 2 минут. Подключите  сервера с высокой скорость до 100 mb/s. Сервис 'Название vpn' использует OpenSoure приложения для подключения к VPN &amp; Proxy.</div>
             <div class="main-promo__title-actions">
@@ -216,7 +216,7 @@
     <section class="advantages">
       <div class="center-container">
         <div class="advantages__title">
-          <h2>Почему 'Название vpn'?</h2></div>
+          <h2>Почему 'NetMimic'?</h2></div>
         <div class="advantages__list">
           <div class="advantages__card">
             <div class="advantages__card-icon"><img src="/dist/img/card1.webp"></div>
@@ -258,7 +258,7 @@
           <div class="about__list-card">
             <div class="about__card-image"><img src="/dist/img/who-we-are.webp"></div>
             <div class="about__card-title">Кто мы?</div>
-            <div class="about__card-text">'Название vpn' - сообщество IT-специалистов, глубоко увлеченных и преданных своему делу профессионалов. Мы стремимся восполнить пробел в доступности и надежности Proxy сервер -сервисов обеспечивая прозрачность и стабильность их использования.</div>
+            <div class="about__card-text">'NetMimic' - сообщество IT-специалистов, глубоко увлеченных и преданных своему делу профессионалов. Мы стремимся восполнить пробел в доступности и надежности Proxy сервер -сервисов обеспечивая прозрачность и стабильность их использования.</div>
           </div>
           <div class="about__list-card">
             <div class="about__card-image"><img src="/dist/img/our-mission.webp"></div>

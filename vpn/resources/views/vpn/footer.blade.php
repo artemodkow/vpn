@@ -29,7 +29,7 @@
               <a href="#">
                 <svg class="icon mail">
                   <use xlink:href="/dist/img/sprite.svg#mail"></use>
-                </svg> vpn@vpn.com</a>
+                </svg> NetMimic@vpn.com</a>
             </div>
           </div>
           <div class="footer__right-col">
