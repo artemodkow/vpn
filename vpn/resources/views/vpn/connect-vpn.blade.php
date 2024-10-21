@@ -18,8 +18,8 @@
             @endphp
 
             @foreach ($countries as $country)
-                <a href="#" class="connect__step-server-item" style="flex: 0 0 48%; box-sizing: border-box; margin-bottom: 16px; text-decoration: none;">
-                    <div class="connect__step-select" style="padding: 16px; border: 1px solid #ccc; border-radius: 10px; display: flex; align-items: center;">
+                <a href="#" class="connect__step-server-item" style=" box-sizing: border-box; text-decoration: none;">
+                    <div class="connect__step-select" style="padding: 25px; width: 100%; border: 1px solid #ccc; border-radius: 10px; display: flex; align-items: center;">
                         <span style="flex-grow: 1;">
                             <svg class="icon flag">
                                 <use xlink:href="{{ asset('/dist/img/flags.svg#' . $country['code']) }}"></use>

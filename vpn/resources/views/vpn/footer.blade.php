@@ -37,17 +37,27 @@
               <div class="footer__nav-column-title">Навигация</div>
               <div class="footer__nav-column-list">
                 <ul>
-                  <li><a hhref="/ru">Главная</a></li>
-                  <li><a href="/ru/pricing">Тарифы</a></li>
-                  <li><a href="/lk">Личный кабинет</a></li>
+
+                  <li>
+                      <a href="/">Главная</a>
+                  </li>
+                  <li>
+                      <a href="{{ route('subscription') }}">Тарифы</a>
+                  </li>
+
+                  <li>
+                      <a href="{{ route('dashboard')}}">Личный кабинет</a>
+                  </li>
                 </ul>
               </div>
             </div>
             <div class="footer__nav-column">
-              <div class="footer__nav-column-title">Скачать Proxy сервер </div>
+              <div class="footer__nav-column-title">
+                  Скачать Proxy сервер
+              </div>
               <div class="footer__nav-column-list">
                 <ul>
-                  <li><a href="/ru/free-windows">Proxy сервер для Windows</a></li>
+                  <li><a href="{{route('active-configurations')}}">Proxy сервер для Windows</a></li>
                 </ul>
               </div>
             </div>
@@ -56,10 +66,12 @@
               <div class="footer__nav-column-title">Поддержка</div>
               <div class="footer__nav-column-list">
                 <ul>
-                  <li><a href="/ru/payment-methods">Способы оплаты</a></li>
+                  <li><a href="{{route('subscription')}}">Способы оплаты</a></li>
+                  <!--
                   <li><a href="/ru/policy">Политика конфиденциальности</a></li>
-                  <li><a href="/ru/terms-of-service">Пользовательское соглашение</a></li>
-                  <li><a href="/ru/support">Поддержка</a></li>
+                                    <li><a href="/ru/terms-of-service">Пользовательское соглашение</a></li>
+                                    <li><a href="/ru/support">Поддержка</a></li>
+                  -->
                 </ul>
               </div>
             </div>

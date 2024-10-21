@@ -28,51 +28,49 @@
           <div class="header__navigation">
             <ul>
               <li class="header__navigation-open">
+                <!--
                 <a href="#">Скачать Proxy сервер  <svg class="icon next">
-                    <use xlink:href="/dist/img/sprite.svg#next"></use>
-                  </svg></a>
-                <ul class="header__navigation-submenu">
-                  <li>
-                    <a href="/ru/free-iphone">
-                      <svg class="icon apple">
-                        <use xlink:href="/dist/img/sprite.svg#apple"></use>
-                      </svg> Proxy сервер для IPhone</a>
-                  </li>
-                  <li>
-                    <a href="/ru/free-android">
-                      <svg class="icon android">
-                        <use xlink:href="/dist/img/sprite.svg#android"></use>
-                      </svg> Proxy сервер для Android</a>
-                  </li>
-                  <li>
-                    <a href="/ru/free-macos">
-                      <svg class="icon macos">
-                        <use xlink:href="/dist/img/sprite.svg#macos"></use>
-                      </svg> Proxy сервер для MacOS</a>
-                  </li>
-                  <li>
-                    <a href="/ru/free-windows">
-                      <svg class="icon windows">
-                        <use xlink:href="/dist/img/sprite.svg#win"></use>
-                      </svg> Proxy сервер для Windows</a>
-                  </li>
-                  <li>
-                    <a href="/ru/free-google-chrome">
-                      <svg class="icon chrome">
-                        <use xlink:href="/dist/img/sprite.svg#chrome"></use>
-                      </svg> Proxy сервер для Chrome</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-              </li>
-              <li><a href="/ru/pricing">Тарифы</a></li>
+                                    <use xlink:href="/dist/img/sprite.svg#next"></use>
+                                  </svg></a>
+                                <ul class="header__navigation-submenu">
+                                  <li>
+                                    <a href="/ru/free-iphone">
+                                      <svg class="icon apple">
+                                        <use xlink:href="/dist/img/sprite.svg#apple"></use>
+                                      </svg> Proxy сервер для IPhone</a>
+                                  </li>
+                                  <li>
+                                    <a href="/ru/free-android">
+                                      <svg class="icon android">
+                                        <use xlink:href="/dist/img/sprite.svg#android"></use>
+                                      </svg> Proxy сервер для Android</a>
+                                  </li>
+                                  <li>
+                                    <a href="/ru/free-macos">
+                                      <svg class="icon macos">
+                                        <use xlink:href="/dist/img/sprite.svg#macos"></use>
+                                      </svg> Proxy сервер для MacOS</a>
+                                  </li>
+                                  <li>
+                                    <a href="/ru/free-windows">
+                                      <svg class="icon windows">
+                                        <use xlink:href="/dist/img/sprite.svg#win"></use>
+                                      </svg> Proxy сервер для Windows</a>
+                                  </li>
+                                  <li>
+                                    <a href="/ru/free-google-chrome">
+                                      <svg class="icon chrome">
+                                        <use xlink:href="/dist/img/sprite.svg#chrome"></use>
+                                      </svg> Proxy сервер для Chrome</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li>
+                              </li>
+                -->
 
               <li>
-
-              </li>
-              <li>
-                <a href="/ru/support">Поддержка</a>
+                  <a href="{{ route('subscription') }}">Тарифы</a>
               </li>
             </ul>
           </div>
@@ -180,7 +178,7 @@
             <h1 class="main-promo__title">NetMimic VPN &amp; Proxy на ПК и телефон для России</h1>
             <div class="main-promo__title-sub">Скачайте NetMimic VPN &amp; Proxy для устройств на Windows, MacOS, iPhone, Android.
               <br>
-              <br> Настройка VPN &amp; Proxy занимет не более 2 минут. Подключите  сервера с высокой скорость до 100 mb/s. Сервис 'Название vpn' использует OpenSoure приложения для подключения к VPN &amp; Proxy.</div>
+              <br> Настройка VPN &amp; Proxy занимет не более 2 минут. Подключите  сервера с высокой скорость до 100 mb/s. Сервис NetMimic использует OpenSoure приложения для подключения к VPN &amp; Proxy.</div>
             <div class="main-promo__title-actions">
 
               <a class="button black-button" href="/register" onclick="ym(92743388,'reachGoal','step_tg');">
@@ -216,7 +214,7 @@
     <section class="advantages">
       <div class="center-container">
         <div class="advantages__title">
-          <h2>Почему 'NetMimic'?</h2></div>
+          <h2>Почему NetMimic?</h2></div>
         <div class="advantages__list">
           <div class="advantages__card">
             <div class="advantages__card-icon"><img src="/dist/img/card1.webp"></div>
@@ -226,14 +224,14 @@
             </div>
           </div>
           <div class="advantages__card">
-            <div class="advantages__card-icon"><img src="/dist/img/card2.webp"></div>
+            <div class="advantages__card-icon"><img src="/dist/img/rocket.png"></div>
             <div class="advantages__card-content">
               <div class="advantages__card-title">Высокая скорость 100 Mb/s без потерь</div>
               <div class="advantages__card-text">Самые надежные и быстрые сервера от облачных провайдеров Digital Ocean, OVH</div>
             </div>
           </div>
           <div class="advantages__card">
-            <div class="advantages__card-icon"><img src="/dist/img/card3.webp"></div>
+            <div class="advantages__card-icon"><img src="/dist/img/key.avif"></div>
             <div class="advantages__card-content">
               <div class="advantages__card-title">Устойчивость к блокировкам</div>
               <div class="advantages__card-text">Использует современные протоколы: Vless, Shadowsocks, SSTP, OpenVPN (UDP/TCP), WireGuard</div>
@@ -251,28 +249,42 @@
     </section>
 
     <section class="about">
-      <div class="center-container">
-        <div class="about__title">
-          <h2>О сервисе</h2></div>
-        <div class="about__list">
-          <div class="about__list-card">
-            <div class="about__card-image"><img src="/dist/img/who-we-are.webp"></div>
-            <div class="about__card-title">Кто мы?</div>
-            <div class="about__card-text">'NetMimic' - сообщество IT-специалистов, глубоко увлеченных и преданных своему делу профессионалов. Мы стремимся восполнить пробел в доступности и надежности Proxy сервер -сервисов обеспечивая прозрачность и стабильность их использования.</div>
-          </div>
-          <div class="about__list-card">
-            <div class="about__card-image"><img src="/dist/img/our-mission.webp"></div>
-            <div class="about__card-title">Наша миссия:</div>
-            <div class="about__card-text">Создать VPN сервер -сервис, который будет отличаться поддержкой всех современных протоколов и возможностью подключения в один клик. Мы нацелены на обеспечение безопасности и конфиденциальности данных наших пользователей.</div>
-          </div>
-          <div class="about__list-card">
-            <div class="about__card-image"><img src="/dist/img/telegram-bot.webp"></div>
-            <div class="about__card-title">Почему мы?</div>
-            <div class="about__card-text">Мы опирались на открытые и проверенные временем opensource-решения, которые уже зарекомендовали себя. Благодаря устойчивости наших серверов к блокировкам и высокому уровню безопасности, мы обеспечиваем непрерывную работу и быструю связь с пользователями.</div>
-          </div>
+        <div class="center-container">
+            <div class="about__title">
+                <h2>Подписка</h2>
+            </div>
+            <div class="about__list">
+                <!-- Карточка тарифа 1 -->
+                <div class="about__list-card">
+                    <div class="about__card-title">2 года + 6 месяцев</div>
+                    <div class="about__card-text">
+                        <p>Выгода 62%</p>
+                        <p>Цена: <span class="price">5 700 ₽</span> (190 ₽/мес)</p>
+                        <button class="btn-red">Купить за 5 700 ₽</button>
+                    </div>
+                </div>
+                <!-- Карточка тарифа 2 -->
+                <div class="about__list-card">
+                    <div class="about__card-title">1 год + 3 месяца</div>
+                    <div class="about__card-text">
+                        <p>Выгода 50%</p>
+                        <p>Цена: <span class="price">3 900 ₽</span> (260 ₽/мес)</p>
+                        <button class="btn-red">Купить за 3 900 ₽</button>
+                    </div>
+                </div>
+                <!-- Карточка тарифа 3 -->
+                <div class="about__list-card">
+                    <div class="about__card-title">6 месяцев</div>
+                    <div class="about__card-text">
+                        <p>Выгода 25%</p>
+                        <p>Цена: <span class="price">1 800 ₽</span> (300 ₽/мес)</p>
+                        <button class="btn-red">Купить за 1 800 ₽</button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
+
 
     <section class="faq">
       <div class="center-container">

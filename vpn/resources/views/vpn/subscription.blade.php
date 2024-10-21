@@ -17,40 +17,34 @@
                         </svg>
                         Выберите тарифный план
                     </div>
-                    <div class="subscription-cart__step-choose-plan">
-                        <label>
-                            <div class="subscription-cart__step-choose-plan-item">
-                                <input type="radio" name="plan" value="1_month" required>
-                                <span>1 месяц </span>
-                                <div class="subscription-cart__step-choose-plan-item-price"> 199.00 ₽</div>
-                                <span class="tag trial">🎁 10 дней бесплатно</span>
+                    <section class="subscription-section">
+                        <div class="subscription-container">
+                            <div class="subscription-list">
+                                <!-- Карточка тарифа 1 -->
+                                <div class="subscription-card">
+                                    <h3 class="subscription-card-title">2 года + 6 месяцев</h3>
+                                    <p class="subscription-card-benefit">Выгода 62%</p>
+                                    <p class="subscription-card-price">Цена: <span class="price">5 700 ₽</span> (190 ₽/мес)</p>
+                                    <button class="subscription-button">Купить за 5 700 ₽</button>
+                                </div>
+                                <!-- Карточка тарифа 2 -->
+                                <div class="subscription-card">
+                                    <h3 class="subscription-card-title">1 год + 3 месяца</h3>
+                                    <p class="subscription-card-benefit">Выгода 50%</p>
+                                    <p class="subscription-card-price">Цена: <span class="price">3 900 ₽</span> (260 ₽/мес)</p>
+                                    <button class="subscription-button">Купить за 3 900 ₽</button>
+                                </div>
+                                <!-- Карточка тарифа 3 -->
+                                <div class="subscription-card">
+                                    <h3 class="subscription-card-title">6 месяцев</h3>
+                                    <p class="subscription-card-benefit">Выгода 25%</p>
+                                    <p class="subscription-card-price">Цена: <span class="price">1 800 ₽</span> (300 ₽/мес)</p>
+                                    <button class="subscription-button">Купить за 1 800 ₽</button>
+                                </div>
                             </div>
-                        </label>
-                        <label>
-                            <div class="subscription-cart__step-choose-plan-item">
-                                <input type="radio" name="plan" value="3_months">
-                                <span>3 месяца</span>
-                                <div class="subscription-cart__step-choose-plan-item-price">499.00 ₽ (166 ₽ / 1 мес.)</div>
-                                <span class="tag trial">🎁 10 дней бесплатно</span>
-                            </div>
-                        </label>
-                        <label>
-                            <div class="subscription-cart__step-choose-plan-item">
-                                <input type="radio" name="plan" value="6_months">
-                                <span>6 месяцев</span>
-                                <div class="subscription-cart__step-choose-plan-item-price">899.00 ₽ (150 ₽ / 1 мес.)</div>
-                                <span class="tag trial">🎁 10 дней бесплатно</span>
-                            </div>
-                        </label>
-                        <label>
-                            <div class="subscription-cart__step-choose-plan-item">
-                                <input type="radio" name="plan" value="1_year">
-                                <span>12 месяцев</span>
-                                <div class="subscription-cart__step-choose-plan-item-price">1599.00 ₽ (133 ₽ / 1 мес.)</div>
-                                <span class="tag trial">🎁 10 дней бесплатно</span>
-                            </div>
-                        </label>
-                    </div>
+                        </div>
+                    </section>
+
                     <div class="subscription-cart__step-actions">
                         <button type="submit" class="button black-button">Продолжить &gt;</button>
                     </div>

@@ -970,20 +970,23 @@ section.advantages {
 
 .advantages__card-icon img,
 .tarifs__list-item-image img {
-    margin: 0 auto
+    margin: 0 auto;
+    flex-shrink: 0;
+
 }
 
 .advantages__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-top: 32px
+    padding-top: 32px;
 }
 
 .advantages__card {
     border-radius: 16px;
     border: 1px solid #f4f4f4;
     background: #fff;
-    padding: 24px
+    padding: 24px;
+    flex-shrink: 0;
 }
 
 .advantages__card-icon {
@@ -992,7 +995,8 @@ section.advantages {
     height: 160px;
     overflow: hidden;
     border-radius: 8px;
-    background: #f4f4f4
+    background: #f4f4f4;
+    flex-shrink: 0;
 }
 
 .advantages__card-title {
@@ -1013,8 +1017,34 @@ section.advantages {
     color: #2c2c35;
     font-size: 16px;
     font-weight: 400;
-    line-height: 140%
+    line-height: 140%;
+    margin:auto;
 }
+.btn-red {
+    background-color: #039BE5; /* Яркий красный цвет */
+    color: #ffffff; /* Белый цвет текста */
+    padding: 10px 20px; /* Отступы для удобства клика */
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Закругленные края */
+    cursor: pointer; /* Указатель мыши при наведении */
+    font-size: 16px; /* Размер текста */
+    transition: background-color 0.3s ease; /* Плавный переход цвета при наведении */
+    white-space: nowrap;
+}
+
+.btn-red:hover {
+    background-color: #d32f2f; /* Более темный оттенок красного при наведении */
+}
+
+.btn-red:active {
+    background-color: #b71c1c; /* Еще более темный оттенок при клике */
+}
+
+.btn-red:focus {
+    outline: none; /* Убираем стандартное выделение при фокусе */
+    box-shadow: 0 0 5px rgba(229, 57, 53, 0.5); /* Добавляем легкое свечение при фокусе */
+}
+
 
 section.about,
 section.moneyback-banner {
@@ -1033,11 +1063,74 @@ section.moneyback-banner {
 
 .about__list-card {
     border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
     background: #fff;
+    border: 3px solid #039BE5;
     padding: 24px;
     width: 374px;
-    height: 468px
+    height: 200px
 }
+.subscription-section {
+    padding: 10px;
+}
+
+.subscription-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.subscription-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subscription-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.subscription-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.subscription-card-benefit {
+    font-size: 14px;
+    color: #4CAF50; /* Зелёный цвет для выгоды */
+    margin-bottom: 10px;
+}
+
+.subscription-card-price {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.subscription-button {
+    background-color: #1976D2; /* Синий цвет кнопки */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscription-button:hover {
+    background-color: #1565C0; /* Более тёмный синий при наведении */
+}
+
 
 @media screen and (max-width: 480px) {
     .about__list-card:not(:last-child) {
@@ -1061,6 +1154,7 @@ section.moneyback-banner {
     color: #11132d;
     font-size: 24px;
     font-weight: 600;
+    margin: auto;
     line-height: 110%
 }
 
