@@ -946,9 +946,14 @@ section.connect {
     justify-content: space-between
 }
 
+.connect__step-server-config-download-link-content-file{
+    margin-top: 15px;
+    margin-right: 10px;
+}
 
 .connect__step-server-config-download-content-text {
     padding: 20px 0 12px;
+    margin-top: 20px;
     color: var(--Dark-grey, #737781);
     font-size: 12px;
     font-weight: 500;
@@ -966,20 +971,20 @@ section.connect {
 .connect__step-server-config-download-content .input-wrap .icon.download {
     width: 18px;
     height: 18px;
-    margin-bottom: -2px
 }
 
 .connect__step-server-config-download-content .input-wrap .file-name {
     width: 100%;
     display: inline-block;
     color: var(--Dark-grey, #737781);
+
     font-size: 14px;
     font-weight: 400;
     line-height: 130%
 }
 
 .config-download-link {
-    margin-left: 20px;
+    margin: auto;
     display: inline-flex;
     align-items: center;
     color: var(--Dark-grey, #737781);
@@ -1343,8 +1348,14 @@ section.connect {
     margin-bottom: 16px
 }
 
+.devices__list-item-col-delete{
+    margin-bottom: 16px;
+}
+
+
 .devices__list-item-col {
-    padding-right: 20px
+    padding-right: 20px;
+
 }
 
 .devices__list-item-col:first-child {

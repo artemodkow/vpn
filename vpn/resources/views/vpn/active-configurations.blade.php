@@ -71,7 +71,7 @@
                                     <div class="devices__list-item-col">
                                         <a href="#" onclick="deleteConfig({{ $configuration->id }}, event)">
                                             <svg class="icon delete">
-                                                <use xlink:href="/img2/sprite.svg#delete"></use>
+                                                <use xlink:href="dist/img/sprite.svg#delete"></use>
                                             </svg>
                                         </a>
                                     </div>
@@ -79,15 +79,20 @@
                                                                                                                                         justify-content: space-between;">
                                         <div class="connect__step-server-config-download-content-file">
                                             <div class="input-wrap input-wrap--disabled">
-                                                <button class="qr-button" onclick="openModal('{{ $configuration->country_code }}')">Показать QR-код</button>
-                                                <a href="{{ asset('configurations/' . $configuration->country_code . '.ovpn') }}" target="_blank" class="config-download-link">
-                                                    Скачать
-                                                    <svg class="icon download">
-                                                        <use xlink:href="{{ asset('/dist/img/sprite.svg#download') }}"></use>
-                                                    </svg>
-                                                </a>
+                                                <button class="qr-button" onclick="openModal('{{ $configuration->country_code }}')">
+                                                    <img src="/dist/img/qr.webp" alt="QR Code" class="qr-image">
+                                                </button>
                                             </div>
                                         </div>
+                                        <div class="connect__step-server-config-download-link-content-file">
+                                           <div class="input-wrap input-wrap--disabled">
+                                                <a href="{{ asset('configurations/' . $configuration->country_code . '.ovpn') }}" target="_blank" class="config-download-link">
+                                                      <svg class="icon download">
+                                                           <use xlink:href="{{ asset('/dist/img/sprite.svg#download') }}"></use>
+                                                      </svg>
+                                                </a>
+                                           </div>
+                                       </div>
                                     </div>
                                 </div>
                             <div id="qrModal" class="modal" style="display: none;">

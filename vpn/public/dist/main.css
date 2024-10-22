@@ -1091,6 +1091,10 @@ section.moneyback-banner {
     flex-direction: column;
     gap: 15px;
 }
+.qr-image{
+    width: 20px;
+    height: 20px;
+}
 
 .subscription-card {
     background: #fff;

@@ -5,19 +5,13 @@
                 <use xlink:href="/dist/img/sprite.svg#menu"></use>
             </svg>
         </a>
-        <span class="user-area__header-section-title"> 
+        <span class="user-area__header-section-title">
                 @if(Request::path() === 'connect-vpn')
                     Подключить VPN
                 @elseif (Request::path() === 'active-configurations')
                     Активные конфигурации
                 @elseif (Request::path() === 'subscription')
                     Подписка
-                @elseif (Request::path() === 'referal')
-                    Реферальная программа
-                @elseif (Request::path() === 'settings')
-                    Настройки
-                @elseif (Request::path() === 'support')
-                    Поддержка
                 @endif
            </span>
         <span class="user-area__profile"><!---->
